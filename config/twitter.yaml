@@ -1,0 +1,7 @@
+default: &default
+  app:
+    consumer_key: consumer_key
+    consumer_secret: consumer_secret
+  account:
+    oauth_token: oauth_token
+    oauth_token_secret: oauth_token_secret

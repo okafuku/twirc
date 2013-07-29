@@ -1,0 +1,18 @@
+default: &default
+  host: example.irc.jp
+  port: 6667
+  nickname: twirc
+  login_name: twirc
+  name: twirc
+  channel: "#twirc"
+  charcode: "utf-8"
+
+development:
+  <<: *default
+  host: example.irc.jo
+  channel: "#development"
+
+production:
+  <<: *default
+  host: example.irc.jo
+  channel: "#production"
